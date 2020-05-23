@@ -15,7 +15,7 @@ Usage of VirtualCrack for attacking targets without prior mutual consent is ille
 
 ### Usage:
 ```
-git clone https://github.com/
+git clone https://github.com/RedHatH/VirtualCrack/
 cd virtualcrack
 chmod +x virtualcrack.sh
 sudo ./virtualcrack.sh
