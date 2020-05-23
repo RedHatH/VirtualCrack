@@ -29,10 +29,15 @@ var2=$(echo $var0 | grep -o 'csrftoken=.*' | cut -d ';' -f1 | cut -d '=' -f2)
 banner() {
 
 printf "\e  __      ___      _               _  _____                _     "
+printf "\n"
 printf "\e  \ \    / (_)    | |             | |/ ____|              | |    "
+printf "\n"
 printf "\e   \ \  / / _ _ __| |_ _   _  __ _| | |     _ __ __ _  ___| | __ "
+printf "\n"
 printf "\e    \ \/ / | | '__| __| | | |/ _` | | |    | '__/ _` |/ __| |/ / "
+printf "\n"
 printf "\e     \  /  | | |  | |_| |_| | (_| | | |____| | | (_| | (__|   <  "
+printf "\n"
 printf "\e      \/   |_|_|   \__|\__,_|\__,_|_|\_____|_|  \__,_|\___|_|\_\ "
 printf "\n"
 printf "\e[1;77m\e[41m  Instagram Brute Force, Author: RedHatH  \e[0m\n" 
